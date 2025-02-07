@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+        <nav>
+            <div class="nav-container">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="#">My portfolio</a>
+                    </div>
+                    <div class="nav-icon">
+                        <div class="hamburger" id="hamIcon" onclick="toggleHamburgerIcon(this)">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <ul class="menu" id="navMenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- Main Contant -->
+        <main>
+            <!-- 1 -->
+            <div class="frist-container" id="home">
+                <div class="pic-container">
+                    <img src="/Pic/me2.jpg">
+                </div>
+                <div class="description-con">
+                    <div class="description-box">
+                        <p><b>“</b> Hello, My name is <b>Tanatip Kositpipatt</b>. I am interested in web development and would like to start my career as a Frontend Developer. Although I don't have official work experience, I have practiced skills in HTML, CSS, JavaScript, and React through personal projects and continuous learning. I am determined to improve my skills and am ready to dedicate myself to learning and real work. I hope to join a team that offers opportunities for growth and development together.<b>”</b></p>
+                    </div>
+                </div>
+                <div class="external-con">
+                    <div class="ex-box">
+                        <div class="work-box">
+                            <a href="https://github.com/TanatipKo" class="work-btn">My Work <i class='bx bxl-github'></i></a>
+                        </div>
+                        <a href="#" class="hire-me">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2 -->
+            <div class="second-container" id="about">
+                <!-- About Me -->
+                <div class="aboutMe-container">
+                    <div class="about-title">
+                        <p>About <span>Me</span></p>
+                    </div>
+                    <div class="description-con2">
+                        <div class="description-box2">
+                            <p><b>Hello, </b>My name is Tanatip Kositpipatt, but you can call me King. I am currently looking for a frontend developer position. I have good Communication, Teamwork, Collaboration, Flexibility, Adaptability, and Positive attitude. I like learning new skills and new experiences.</p>
+                        </div>
+                    </div>
+                    <div class="resume-box">
+                        <a href="https://drive.google.com/file/d/1b23bLnoOevvhGQpHpkFryM-GtAyRDqxj/view?usp=sharing" class="resume-btn">My Resume</a>
+                    </div>
+                </div>
+                <!-- My Project -->
+                <div class="myProject-container">
+                    <div class="myProject-title">
+                        <p>My <span>Project</span></p>
+                    </div>
+
+                    <div class="project-box">
+                        <div class="project1">
+                            <div class="porjectTitle">
+                                <h3>Project01</h3>
+                                <p>My Portfolio</p>
+                            </div>
+                            <div class="por-description">
+                                <ul>
+                                    <li>This is a project created to test what has been learned.</li>
+                                    <li>This My Portfolio project is developed using only html css js and Responsive.</li>
+                                </ul>
+                            </div>
+                        </div>  
+                        <div class="project2">
+                            <div class="porjectTitle">
+                                <h3>Project02</h3>
+                                <p>Book Mart (Developing)</p>
+                            </div>
+                            <div class="por-description">
+                                <ul>
+                                    <li>Systems in this project.
+                                        <ul>
+                                            <li>Account
+                                                <ul>
+                                                    <li>Show user information</li>
+                                                    <li>Can log out</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Use localStorage to get Data.</li>
+                                    <li>This Book Mart project is developed using React.js.</li>
+                                </ul>        
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <!-- My Skills -->
+                <div class="logoSkills-container">
+                    <div class="skill-title">
+                        <p>My <span>Skills</span></p>
+                     </div>
+                    <div class="logoSkill-box">
+
+                        <div class="logoSkill-pic">
+                            <img src="/Pic/HTML-pic.png">
+                            <div class="logoSkillName">
+                                <p>HTML</p>
+                            </div>
+                        </div> 
+                        <div class="logoSkill-pic">
+                            <img src="/Pic/CSS-pic.png">
+                            <div class="logoSkillName">
+                                <p>CSS</p>
+                            </div>
+                        </div>                   
+                        <div class="logoSkill-pic">
+                            <img src="/Pic/Js-pic.png">
+                            <div class="logoSkillName">
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                        <div class="logoSkill-pic">
+                            <img src="/Pic/React-pic.png">
+                            <div class="logoSkillName">
+                                <p>React</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tools skill -->
+                <div class="toolSkills-container">
+                    <div class="tool-title">
+                        <p>Tools</p>
+                     </div>
+
+                    <div class="toolskill-box">
+
+                        <div class="toolSkill-pic">
+                            <img src="/Pic/GitHub-pic.png">
+                            <div class="toolSkillName">
+                                <p>GitHub</p>
+                            </div>
+                        </div>   
+                        <div class="toolSkill-pic">
+                            <img src="/Pic/Figma-pic.png">
+                            <div class="toolSkillName">
+                                <p>Figma</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="third-container" id="contact">
+                <div class="contact-title">
+                    <p><span>Contact </span>Me</p>
+                 </div>
+                
+                <div class="description-con3">
+
+                    <div class="description-box3">
+
+                      <div class="des-text-box3">
+                        <p><i class='bx bxs-user'></i> : Tanatip kositpipatt</p>
+                      </div> 
+                      <!-- <div class="des-text-box3">
+                        <p><i class='bx bx-map'></i> : 933 Moo 11 Soi Piyamit Phatthana 3 Sam Phrao Subdistrict, Mueang Udon Thani District, Udon Thani Province, 41000</p> 
+                      </div> -->
+                      <div class="des-text-box3">
+                        <p><i class='bx bx-envelope'></i> : ko.tanatip.fj@gmail.com</p>
+                      </div>
+                      <div class="des-text-box3">
+                        <p><i class='bx bxs-phone'></i> : 063-313-2214</p>
+                      </div>
+
+                      <div class="description-box4">
+                        <h1>Thank you for visiting my website. Hope to have the opportunity to work together.</h1>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+        <footer>
+            <p>Create by <span>Tanatip kositpipatt</span></p>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
